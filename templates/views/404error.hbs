@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ {{>headerlinks}}
+</head>
+
+<body>
+ 
+{{>navbar}}
+<!-- main header -->
+
+ <div class="container-fluid main_header">
+  <div class="row">
+   <div class="col-md-10 col-12 mx-auto">
+    <div class="row">
+     <!-- left side -->
+     <div class="col-md-6 col-12 main_header_right">
+      
+      <figure >
+        <img src="https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/2019/10/banner_error_404.jpg?itok=eAS4swln" class="img-fluid" alt="nazmul-pic/jpg" title="Nazmul Hossain">
+      </figure>
+     </div> 
+
+    <div class="col-md-6 col-12 main_header_left">
+       <h3>Welcome to My Weather App</h3>
+       <h1 style="color:red">{{ermsg}}</h1>
+       <a href="/" target="_do"><button>Go Back</button></a>
+     </div>
+
+     
+     <!-- Right Side -->
+     
+    </div>
+
+   </div>
+  </div>
+ </div>   
+
+<!-- footer section -->
+{{>footer}}
+
+</body>
+</html>
