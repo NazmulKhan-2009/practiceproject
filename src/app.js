@@ -32,7 +32,7 @@ app.get('/weather' , (req , res)=>{
 })
 
 app.get('*' , (req , res)=>{
- res.render('404error', {ermsg:'Ops the page Not found'})
+ res.render('404error', {ermsg:'Ops the page Not found,Click here to back'})
 })
 
 
